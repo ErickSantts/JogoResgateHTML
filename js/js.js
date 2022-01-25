@@ -416,7 +416,7 @@ function start() { // Inicio da função start()
 
         $("#fundoGame").append("<div id='fim'></div>");
 
-        $("#fim").html("<h1> Game Over </h1><p>Sua pontuação foi: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
+        $("#fim").html("<h1> Game Over </h1><p>Resultado: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
     } // Fim da fun��o gameOver();
 
 

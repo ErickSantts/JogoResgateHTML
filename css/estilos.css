@@ -7,6 +7,7 @@ h1 {
   font-family: Titulo;
   font-size: 40px;
   color: #603a03;
+  transition: 0.8s;
 }
 
 body {
@@ -75,6 +76,14 @@ body {
   text-align: center;
   padding: 10px;
   cursor: pointer;
+  transition: 0.8s;
+}
+
+#inicio:hover,
+#inicio:hover h1 {
+  background-color: orangered;
+  border-radius: 20px;
+  color: aliceblue !important;
 }
 
 .anima1 {
@@ -313,4 +322,22 @@ h3 {
   text-align: center;
   padding: 10px;
   cursor: pointer;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+#fim p {
+  transition: 0.8s;
+  font-family: Titulo;
+  font-size: 20px;
+  color: #603a03;
+}
+
+#fim:hover,
+#fim:hover h1,
+#fim:hover h3,
+#fim:hover p {
+  background-color: orangered;
+  border-radius: 20px;
+  color: aliceblue !important;
 }
